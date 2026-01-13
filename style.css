@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: darkturquoise;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+#main_container {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+#main_container h1 {
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.player_container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
+}
+.player_1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.player_2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#dice_img_one {
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
+#dice_img_two {
+  padding: 8px;
+  width: 50px;
+  height: 50px;
+}
