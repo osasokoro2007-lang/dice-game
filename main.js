@@ -1,7 +1,17 @@
-var player_1 = Math.ceil(Math.random() * 6);
-var player_2 = Math.ceil(Math.random() * 6);
+var player_1 = Math.floor(Math.random() * 6) + 1;
+var player_2 = Math.floor(Math.random() * 6) + 1;
 var dice_img_one = document.getElementById("dice_img_one");
 var dice_img_two = document.getElementById("dice_img_two");
+var winner = document.getElementById("winner_text");
+
+if (player_1 > player_2) {
+  winner.textContent = "Player 1 Won!";
+} else if (player_1 < player_2) {
+  winner.textContent = "Player 2 Won!";
+} else {
+  winner.textContent = "It is a Tie!";
+}
+
 //first player
 if (player_1 === 1) {
   dice_img_one.src = "image/dice_six-faces-one.png";

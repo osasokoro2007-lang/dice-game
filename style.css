@@ -20,7 +20,7 @@ body {
 }
 .player_container {
   display: flex;
-  margin-top: 3rem;
+  padding-top: 2rem;
   justify-content: space-around;
 }
 .player_1 {
@@ -38,4 +38,11 @@ body {
   padding: 8px;
   width: 50px;
   height: 50px;
+}
+#player_main_title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#player_main_title h2 {
+  padding-top: 10px;
+  color: rgb(14, 117, 14);
 }
