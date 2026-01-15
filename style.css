@@ -46,3 +46,15 @@ body {
   padding-top: 10px;
   color: rgb(14, 117, 14);
 }
+#btn {
+  padding: 10px;
+  background-color: rgb(85, 85, 217); /* Sets the button's background color */
+  color: white; /* Sets the text color for contrast */
+  border: none; /* Removes default border */
+  border-radius: 5px; /* Rounds the corners */
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn_div {
+  padding-top: 15px;
+}
